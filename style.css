@@ -1,0 +1,286 @@
+ *{ 
+   padding: 0;
+   margin: 0;
+   text-decoration: none;
+   list-style: none;
+   box-sizing: border-box;
+ 
+   color: #ffcc33;
+}
+
+
+nav {
+    background: black;
+    height: 80px;
+    width: 100%;
+}
+label.logo {
+ color: #ffcc33;
+ font-size: 35px;
+ line-height: 80px;
+ padding: 0 100px;
+ font-weight: bold;
+ font-family: 'Rubik Doodle Shadow', system-ui;
+}
+nav ul{
+    float: right;
+    margin-right: 20px; 
+}
+nav ul li{
+display: inline-block;
+line-height: 80px;
+margin: 0 5px;
+}
+nav ul li a{
+    color: #ffcc33; 
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+    font-family: 'Rubik Doodle Shadow', system-ui;
+}
+a.active, a:hover{
+ background: #6e570f;
+ transition: .5s;
+}
+.checkbtn {
+    font-size: 30px;
+    color: #ffcc33;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+#check {
+    display: none;
+}
+@media (max-width: 952px) {
+    label.logo{
+        font-size: 30px;
+        padding-left: 50px;
+    }
+    nav ul li a{
+        font-size: 16px;
+    }
+}
+@media (max-width: 858px){
+    .checkbtn{
+        display: block;
+    }
+    ul{
+       position: absolute; 
+        width: 100%;
+        height: 100vh;
+        background: black;
+        top: 80px;
+        left: -100%;
+        text-align: center;
+        transition: all .6s;
+    }
+    nav ul li{
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+    }
+    nav ul li a{
+        font-size: 20px;
+    }
+    a:hover,a.active{
+        
+        color: ;
+    }
+    #check:checked ~ ul{
+        left: 0;
+    }
+    img {
+        width: fit-content
+    }
+}
+
+ 
+ 
+ 
+ h1 {
+    color: aliceblue;
+ }
+ h1 {
+    color: #ffcc33;
+    font-family: 'Rubik Doodle Shadow', system-ui;
+    font-size: 30px;
+    font-weight: bolder;
+ }
+   .textcolor{
+    color: #ffcc33;
+    font-family: 'Rubik Doodle Shadow', system-ui;
+    font-weight: bolder;
+    font-size: 30px;
+       
+ }
+
+ .text-container {
+background-image: url('./image/Dusky\ 2.jpg');
+background-position: center;
+    text-align: center;
+    width: 100%;
+    color: white;
+    height: 900px;
+
+ }
+.text-dusky{
+    position: relative;
+    top: 60%;
+}
+ .buy {
+    height: 50px;
+    width: 80px;
+    font-size: 20px;
+    color: ;
+    background: red;
+    font-weight: bolder;
+    font-family: 'Rubik Doodle Shadow', system-ui;
+    border-radius: 15px;   
+ }
+ .howtobuy {
+    background-color: black;
+    padding: 15%;
+    margin: -1%;
+    text-align: center;
+    
+
+ }
+    .howtobuy-2{
+        font-family: 'Rubik Doodle Shadow', system-ui;
+    }
+ .container {
+    display: block;
+ }
+ .aboutdusky {
+    background-color: black;
+    text-align: center;
+    padding: 10%;
+    margin: -3.1%;
+    font-family: 'Playfair Display', serif;
+    font-weight: bolder;
+ }
+ .one {
+    height: 130px;
+    border: solid;
+    padding: 2%;
+    margin: 2%;
+    font-family: 'Playfair Display', serif;
+    font-weight: bolder;
+ }
+ .two {
+    height: 140px;
+    border: solid;
+    padding: 2%;
+    margin: 2%;
+    font-family: 'Playfair Display', serif;
+    font-weight: bolder;
+ }
+.three{
+    height: 160px;
+    border: solid;
+    padding: 2%;
+    margin: 2%;
+    font-family: 'Playfair Display', serif;
+    font-weight: bolder;
+}
+.four{
+    height: 140px;
+    border: solid;
+    padding: 2%;
+    margin: 3%;
+    font-family: 'Playfair Display', serif;
+    font-weight: bolder;
+}
+.token {
+    background-color: black;
+    text-align: center;
+    padding: 10%;
+}
+.TOKENOMICS {
+    font-size: 40px;
+    font-family: 'Rubik Doodle Shadow', system-ui;
+    text-decoration: underline;
+    
+}
+.max {
+    font-size: 20px;
+    padding: 4%;
+    font-family: 'Rubik Doodle Shadow', system-ui;
+}
+.numbers {
+    font-size: 20px;
+    font-family: 'Rubik Doodle Shadow', system-ui;
+}
+  taxdiv {
+    height: 150px;
+    width: 300px;
+    border: solid;
+    padding: 2%;
+
+  }
+.notax {
+    font-size: 20px;
+    padding: 2%;
+    font-family: 'Rubik Doodle Shadow', system-ui;
+    text-decoration: line-through;
+}
+.lp{
+    font-size: 20px;
+    font-family: 'Rubik Doodle Shadow', system-ui; 
+}
+.map {
+    background-color: black;
+    text-align: center;
+    padding: 10%;
+
+}
+.Roadmap {
+    font-size: 40px;
+    font-family: 'Rubik Doodle Shadow', system-ui;
+}
+.coming {
+    background-color: #ffcc33;
+    height: 50px;
+    
+    border: solid;
+    justify-content: center;
+    align-items: center;
+}
+.soon {
+    color: black;
+    padding: 2%;
+    font-size: 20px;
+    font-family: 'Rubik Doodle Shadow', system-ui;
+}
+footer {
+    background-color: black;
+    padding: 1%;
+}
+.crossline {
+    color: #ffcc33;
+    padding: 0%;
+    margin: 0%;
+    width: 100%;
+}
+.socialicons {
+    display: flex;
+    justify-content: center;
+    color:;
+    
+}
+ .socialicons a{
+    text-decoration: none;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 50%;
+
+ }
+ .right {
+    padding: 10px;
+    text-align: center;
+ }
+ 
